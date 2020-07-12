@@ -30,9 +30,11 @@ Why do we do Feature Selection?
 <img src="https://www.analyticsvidhya.com/wp-content/uploads/2015/08/Lasso.png">
 The second term is basically a paramter with the term that describes how many features we are using. 
 
+##### **Plotting Lasso Regression's Coefficient Score:**
+<img src="https://github.com/geekquad/Lasso-Ridge-Regression-and-Elastic_Net-Regularization-from-Scratch/blob/master/lasso_coef.png">
+
 ##### **Documentation of LASSO:**
 <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html"> https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html </a>
-
 <hr> </hr>
 
 ## Ridge Regression:
@@ -42,6 +44,10 @@ The second term is basically a paramter with the term that describes how many fe
 ##### **Formula:**
 <img src="https://www.analyticsvidhya.com/wp-content/uploads/2015/08/Ridge2.png">
 In this equation, we have two components. First one is least square term and other one is lambda of the summation of β2 (beta- square) where β is the coefficient. This is added to least square term in order to shrink the parameter to have a very low variance.
+
+
+##### **Plotting Ridge Regression's Coefficient Score:**
+<img src="https://github.com/geekquad/Lasso-Ridge-Regression-and-Elastic_Net-Regularization-from-Scratch/blob/master/ridge_coef.png">
 
 ##### **Documentation of RIDGE:**
 <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html"> https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html </a>
@@ -55,6 +61,9 @@ In this equation, we have two components. First one is least square term and oth
 ##### **Formula:**
 <img src="https://www.analyticsvidhya.com/wp-content/uploads/2015/08/Elastic_Net.png">
 In elastic Net Regularization we added the both terms of L1 and L2 to get the final loss function.
+
+##### **Plotting Elastic-Net Regularization's Coefficient Score:** 
+<img src="https://github.com/geekquad/Lasso-Ridge-Regression-and-Elastic_Net-Regularization-from-Scratch/blob/master/enet_coef.png">
 
 ##### **Documentation of ELASTIC-NET:**
 <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html"> https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html</a>
