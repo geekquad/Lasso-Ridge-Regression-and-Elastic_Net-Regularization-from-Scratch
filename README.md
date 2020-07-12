@@ -46,3 +46,17 @@ In this equation, we have two components. First one is least square term and oth
 ##### **Documentation of RIDGE:**
 <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html"> https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html </a>
 <hr> </hr>
+
+## Elastic-Net Regularizatoin:
+- ElasticNet is hybrid of Lasso and Ridge Regression techniques. 
+- It is trained with L1 and L2 prior as regularizer. 
+- Elastic-net is useful when there are multiple features which are correlated. Lasso is likely to pick one of these at random, while elastic-net is likely to pick both.
+
+##### **Formula:**
+<img src="https://www.analyticsvidhya.com/wp-content/uploads/2015/08/Elastic_Net.png">
+In elastic Net Regularization we added the both terms of L1 and L2 to get the final loss function.
+
+##### **Documentation of ELASTIC-NET:**
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html"> https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html</a>
+
+<hr> </hr>
